@@ -1,0 +1,93 @@
+html {
+	background-color: black;
+}
+
+#top_bar {
+	background-color: #3e3e3e;
+}
+
+.body {
+	background-color: black;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+#footer{
+	background-color: #3e3e3e;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+.blurb {
+	float: right;
+	padding-right: 15%;
+}
+
+.blurb span{
+	color: #4e739d;
+	font-size: 1.2em;
+	top: -16em;
+	padding-left: 2em;
+	position: relative;
+}
+
+#share {
+	font-size: 1.75em;
+	position: relative;
+	top: -6em;
+}
+
+#get {
+	position: relative;
+	font-size: 4.35em;
+	top:-3.6em;
+}
+
+#bluelogo {	
+	margin-top: 20px;
+	margin-left: 20%;
+	}
+
+#top_bar {
+	margin-bottom: -19px;
+}
+
+#cowface {
+	margin-left: 20%;
+}
+
+ul {
+	position: relative;
+	font-size: 1.1em;
+	top: -17em;
+}
+
+#appstore {
+	position:relative;
+	top: -18em;
+	padding-left: 1em;
+}
+
+#copyright {
+	margin-left: 20%;
+	padding-top: 15px;
+	font-size: .75em;
+}
+
+#whitelogo {
+
+	float: right;
+	position: relative;
+	
+}
+
+#footer {
+	padding-bottom: 300px;
+}
+
+/* This is the css for the video player */
+
+#video {
+	padding-top: 40px;
+	margin-left: 20%;
+}
