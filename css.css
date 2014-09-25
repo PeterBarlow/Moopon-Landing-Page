@@ -20,13 +20,13 @@ html {
 
 .blurb {
 	float: right;
-	padding-right: 15%;
+	padding-right: 20%;
 }
 
 .blurb span{
 	color: #4e739d;
 	font-size: 1.2em;
-	top: -16em;
+	top: -14.5em;
 	padding-left: 2em;
 	position: relative;
 }
@@ -64,7 +64,7 @@ ul {
 
 #appstore {
 	position:relative;
-	top: -18em;
+	top: -17em;
 	padding-left: 1em;
 }
 
@@ -76,8 +76,11 @@ ul {
 
 #whitelogo {
 
-	float: right;
-	position: relative;
+	right: 0px;
+	position: absolute;
+	margin-right: 20%;
+	bottom:2em;
+
 	
 }
 
@@ -88,6 +91,10 @@ ul {
 /* This is the css for the video player */
 
 #video {
-	padding-top: 40px;
+	margin-top: 40px;
 	margin-left: 20%;
+}
+
+iframe {
+	border: solid 5px #3e3e3e;
 }
