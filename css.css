@@ -10,6 +10,7 @@ html {
 	background-color: black;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
+	position: absolute;
 }
 
 #footer{
