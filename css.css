@@ -2,34 +2,56 @@ html {
 	background-color: black;
 }
 
-#top_bar {
-	background-color: #3e3e3e;
+body {
+	padding: 0;
+	margin: 0;
 }
 
+/* Style for the top bar */
+#top_bar {
+	background-color: #3e3e3e;
+	position: absolute;
+	width: 100%;
+	height: 3em;
+}
+
+#bluelogo {	
+	position: absolute;
+	margin-top: 17px;
+	margin-left: 18%;
+	}
+
+/* Style for the body */
 .body {
 	background-color: black;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
+
+
+}
+
+.leftcolumn {
 	position: absolute;
+	margin-left: 18%;
+	
+}
+.rightcolumn {
+	
+	position: absolute;
+	top: 22em;
+	right: 20%;
+	min-width: 15em;
+	clear: left;
+
 }
 
-#footer{
-	background-color: #3e3e3e;
-	font-family: 'Montserrat', sans-serif;
-	color: white;
-}
-
-.blurb {
-	float: right;
-	padding-right: 20%;
-}
-
-.blurb span{
+.rightcolumn span{
 	color: #4e739d;
 	font-size: 1.2em;
 	top: -14.5em;
 	padding-left: 2em;
 	position: relative;
+	z-index: 0;
 }
 
 #share {
@@ -44,16 +66,8 @@ html {
 	top:-3.6em;
 }
 
-#bluelogo {	
-	margin-top: 20px;
-	margin-left: 20%;
-	}
-
-#top_bar {
-	margin-bottom: -19px;
-}
-
 #cowface {
+	padding-top: 19em;
 	margin-left: 20%;
 }
 
@@ -67,34 +81,55 @@ ul {
 	position:relative;
 	top: -17em;
 	padding-left: 1em;
+	border: 0;
+}
+
+/* Style for the footer */
+#footer{
+	background-color: #3e3e3e;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	position: absolute;
+	bottom: -16em;
+	width: 100%;
+	height: 300px;
+
 }
 
 #copyright {
 	margin-left: 20%;
-	padding-top: 15px;
+	padding-top: 20px;
 	font-size: .75em;
 }
 
 #whitelogo {
-
-	right: 0px;
-	position: absolute;
+	float: right;
+	position:relative;
 	margin-right: 20%;
-	bottom:2em;
-
-	
+	bottom:3em;	
 }
 
-#footer {
-	padding-bottom: 300px;
+#email1 { 
+	position: absolute;
+	right: 20%;
+	text-decoration: none;
+	color: white;
+}
+
+#email2 {
+	position: absolute;
+	left: 20%;
+	text-decoration: none;
+	color: white;
 }
 
 /* This is the css for the video player */
 
-#video {
-	margin-top: 40px;
+#imageID {
+	position: absolute;
+	margin-top: 80px;
 	margin-left: 20%;
-}
+	
 
 iframe {
 	border: solid 5px #3e3e3e;
