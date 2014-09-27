@@ -1,3 +1,8 @@
+
+
+
+
+
 html {
 	background-color: black;
 }
@@ -10,7 +15,6 @@ body {
 /* Style for the top bar */
 #top_bar {
 	background-color: #3e3e3e;
-	position: absolute;
 	width: 100%;
 	height: 3em;
 }
@@ -18,68 +22,80 @@ body {
 #bluelogo {	
 	position: absolute;
 	margin-top: 17px;
-	margin-left: 18%;
+	margin-left: 10%;
 	}
 
-/* Style for the body */
-.body {
+/* Style for the main body */
+.meat {
 	background-color: black;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
+	max-width: 925px;
+	margin: 0 auto;
+
 
 
 }
 
 .leftcolumn {
-	position: absolute;
-	margin-left: 18%;
+	width: 443px;
+	display: inline-block;
+	margin-top:36px;
+
+/*ie 7 correction for inline-block element; */
+	zoom: 1;
+	*display: inline;
+	_height: 30px;
+	
 	
 }
 .rightcolumn {
-	
-	position: absolute;
-	top: 22em;
-	right: 20%;
-	min-width: 15em;
-	clear: left;
+	width: 478px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 100px;
+
+	/*ie 7 correction for inline-block element; */
+	zoom: 1;
+	*display: inline;
+	_height: 30px;
 
 }
 
 .rightcolumn span{
 	color: #4e739d;
 	font-size: 1.2em;
-	top: -14.5em;
+	
 	padding-left: 2em;
-	position: relative;
-	z-index: 0;
+	
+
 }
 
 #share {
-	font-size: 1.75em;
-	position: relative;
-	top: -6em;
+	font-size: 1.667em;
+
 }
 
 #get {
-	position: relative;
-	font-size: 4.35em;
-	top:-3.6em;
+	margin-top: -32px;
+	font-size: 3.8em;
+	
 }
 
 #cowface {
-	padding-top: 19em;
-	margin-left: 20%;
+	
+	
 }
 
 ul {
-	position: relative;
+	
 	font-size: 1.1em;
-	top: -17em;
+	margin-top: -2em;
 }
 
 #appstore {
-	position:relative;
-	top: -17em;
+	
+	
 	padding-left: 1em;
 	border: 0;
 }
@@ -89,48 +105,594 @@ ul {
 	background-color: #3e3e3e;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
-	position: absolute;
-	bottom: -16em;
 	width: 100%;
 	height: 300px;
 
 }
 
+#leftsidefoot{
+	float: left;
+	margin-left: 10%
+}
+
+#rightsidefoot{
+	float:right;
+	margin-right: 10%
+}
+
 #copyright {
-	margin-left: 20%;
-	padding-top: 20px;
+	padding-top: 9px;
 	font-size: .75em;
 }
 
 #whitelogo {
-	float: right;
-	position:relative;
-	margin-right: 20%;
-	bottom:3em;	
+	
 }
 
-#email1 { 
-	position: absolute;
-	right: 20%;
+#email1 { 	
+	
 	text-decoration: none;
 	color: white;
+	margin-top: 191px;
+	display: block;
+	font-size: 1.5em;
 }
 
 #email2 {
-	position: absolute;
-	left: 20%;
+	margin-top: 207px;
 	text-decoration: none;
 	color: white;
+	display: block;
+	font-size: 1.5em;
 }
 
-/* This is the css for the video player */
-
+/* This is the css for the video player still image*/
 #imageID {
-	position: absolute;
-	margin-top: 80px;
-	margin-left: 20%;
-	
+	width: 377px;
+	height: 210px;
+	cursor: pointer; 
+	cursor: hand;
+	}
+
+/* This is the css for the video player playing a movie*/
+#ytapiplayer2 {
+	width: 377px;
+	height: 210px;
+}
 
 iframe {
 	border: solid 5px #3e3e3e;
+}
+
+
+
+
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : landscape) { 
+html {
+	background-color: black;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+/* Style for the top bar */
+#top_bar {
+	background-color: #3e3e3e;
+	width: 100%;
+	height: 110px;
+}
+
+#bluelogo {	
+	position: absolute;
+	margin-top: 35px;
+	margin-left: 5%;
+	width:25em;
+	height: 7em;
+
+	}
+
+/* Style for the main body */
+.meat {
+	background-color: black;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	max-width: 100%;
+	margin: 0 auto;
+
+
+
+}
+
+.leftcolumn {
+	width: 443px;
+	display: inline-block;
+	margin-top:36px;
+	margin-left: 5%;
+
+/*ie 7 correction for inline-block element; */
+	zoom: 1;
+	*display: inline;
+	_height: 30px;
+	
+	
+}
+.rightcolumn {
+	width: 480px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 100px;
+
+
+	/*ie 7 correction for inline-block element; */
+	zoom: 1;
+	*display: inline;
+	_height: 30px;
+
+	
+
+}
+
+.rightcolumn span{
+	color: #4e739d;
+	font-size: 1.2em;
+	
+	padding-left: 2em;
+	
+
+}
+
+#share {
+	font-size: 1.65em;
+
+}
+
+#get {
+	margin-top: -32px;
+	font-size: 3.8em;
+	
+}
+
+#cowface {
+	
+	
+}
+
+ul {
+	
+	font-size: 1.3em;
+	margin-top: -2em;
+}
+
+#appstore {
+	
+	
+	padding-left: 1em;
+	border: 0;
+}
+
+/* Style for the footer */
+#footer{
+	background-color: #3e3e3e;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	width: 100%;
+	height: 300px;
+
+}
+
+#leftsidefoot{
+	float: left;
+	margin-left: 5%
+}
+
+#rightsidefoot{
+	float:right;
+	margin-right: 5%
+}
+
+#copyright {
+	padding-top: 9px;
+	font-size: .75em;
+}
+
+#whitelogo {
+	
+}
+
+#email1 { 	
+	
+	text-decoration: none;
+	color: white;
+	font-size: 2em;
+}
+
+#email2 {
+	text-decoration: none;
+	color: white;
+	font-size: 2em;
+}
+
+/* This is the css for the video player still image*/
+#imageID {
+	width: 377px;
+	height: 210px;
+	cursor: pointer; 
+	cursor: hand;
+	}
+
+/* This is the css for the video player playing a movie*/
+#ytapiplayer2 {
+	width: 377px;
+	height: 210px;
+}
+
+iframe {
+	border: solid 5px #3e3e3e;
+}
+
+}
+
+
+
+
+
+
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : portrait) { 
+
+html {
+	background-color: black;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+/* Style for the top bar */
+#top_bar {
+	background-color: #3e3e3e;
+	width: 100%;
+	height: 110px;
+}
+
+#bluelogo {	
+	position: absolute;
+	margin-top: 35px;
+	margin-left: 5%;
+	width:25em;
+	height: 7em;
+
+	}
+
+/* Style for the main body */
+.meat {
+	background-color: black;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	
+	margin: 0 auto;
+
+
+
+}
+
+.leftcolumn {
+	width: 100%;
+	display: block;
+	margin-top:36px;
+	margin-left: 5%;
+
+/*ie 7 correction for inline-block element; 
+	zoom: 1;
+	*display: inline;
+	_height: 30px;*/
+	
+	
+}
+.rightcolumn {
+	width: 100%;
+	display: block;
+	margin-top: 100px;
+
+
+	/*ie 7 correction for inline-block element; 
+	zoom: 1;
+	*display: inline;
+	_height: 30px;*/
+
+	
+
+}
+
+.rightcolumn span{
+	color: #4e739d;
+	font-size: 4em;
+	
+	padding-left: 1em;
+	
+
+}
+
+#share {
+	font-size: 3.2em;
+
+}
+
+#get {
+	margin-top: -.5em;
+	font-size: 7.4em;
+	
+}
+
+#cowface {
+	width:57em;
+	height: 75em;
+	display: block;
+	margin-left: 1em;
+	
+}
+
+ul {
+	
+	font-size: 2.06em;
+	margin-top: -2em;
+}
+
+#appstore {
+	
+	height: 17em;
+	width: 40em;
+	padding-left: 1em;
+	border: 0;
+}
+
+/* Style for the footer */
+#footer{
+	background-color: #3e3e3e;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	width: 100%;
+	height: 300px;
+
+}
+
+#leftsidefoot{
+	float: left;
+	margin-left: 5%
+}
+
+#rightsidefoot{
+	float:right;
+	margin-right: 5%
+}
+
+#copyright {
+	padding-top: 14px;
+	font-size: 1.3em;
+}
+
+#whitelogo {
+	padding-top: 10px;
+	width: 13em;
+	height: 4em;
+}
+
+#email1 { 	
+	
+	text-decoration: none;
+	color: white;
+	font-size: 2.5em;
+}
+
+#email2 {
+	text-decoration: none;
+	color: white;
+	font-size: 2.5em;
+}
+
+/* This is the css for the video player still image*/
+#imageID {
+	width: 55em;
+	height: 30em;
+	cursor: pointer; 
+	cursor: hand;
+	}
+
+/* This is the css for the video player playing a movie*/
+#ytapiplayer2 {
+	width: 55em;
+	height: 30em;
+}
+
+iframe {
+	border: solid 5px #3e3e3e;
+	width: 55em;
+	height: 30em;
+}
+}
+
+
+
+/*ipad mini */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  { 
+	html {
+	background-color: black;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+/* Style for the top bar */
+#top_bar {
+	background-color: #3e3e3e;
+	width: 100%;
+	height: 3em;
+}
+
+#bluelogo {	
+	position: absolute;
+	margin-top: 17px;
+	margin-left: 10%;
+	}
+
+/* Style for the main body */
+.meat {
+	background-color: black;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	max-width: 925px;
+	margin: 0 auto;
+
+
+
+}
+
+.leftcolumn {
+	width: 443px;
+	display: inline-block;
+	margin-top:36px;
+
+/*ie 7 correction for inline-block element; */
+	zoom: 1;
+	*display: inline;
+	_height: 30px;
+	
+	
+}
+.rightcolumn {
+	width: 425px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 100px;
+
+	/*ie 7 correction for inline-block element; */
+	zoom: 1;
+	*display: inline;
+	_height: 30px;
+
+	
+
+}
+
+.rightcolumn span{
+	color: #4e739d;
+	font-size: 1.5em;
+	
+	padding-left: 2em;
+	
+
+}
+
+#share {
+	font-size: 1.3em;
+
+}
+
+#get {
+	margin-top: -25px;
+	font-size: 3em;
+	
+}
+
+#cowface {
+	
+	
+}
+
+ul {
+	
+	font-size: 1.1em;
+	margin-top: -2em;
+	padding-left: -1em;
+}
+
+#appstore {
+	
+	
+	padding-left: 1em;
+	border: 0;
+	height: 9em;
+	width:25em;
+}
+
+/* Style for the footer */
+#footer{
+	background-color: #3e3e3e;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	width: 100%;
+	height: 300px;
+
+}
+
+#leftsidefoot{
+	float: left;
+	margin-left: 10%
+}
+
+#rightsidefoot{
+	float:right;
+	margin-right: 10%
+}
+
+#copyright {
+	padding-top: 9px;
+	font-size: .75em;
+}
+
+#whitelogo {
+	
+}
+
+#email1 { 	
+	
+	text-decoration: none;
+	color: white;
+	margin-top: 147px;
+	display: block;
+	font-size: 1.5em;
+}
+
+#email2 {
+	margin-top: 165px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-size: 1.5em;
+}
+
+/* This is the css for the video player still image*/
+#imageID {
+	width: 377px;
+	height: 210px;
+	cursor: pointer; 
+	cursor: hand;
+	}
+
+/* This is the css for the video player playing a movie*/
+#ytapiplayer2 {
+	width: 377px;
+	height: 210px;
+}
+
+iframe {
+	border: solid 5px #3e3e3e;
+}
 }
