@@ -77,8 +77,47 @@ ul {
 	padding-top: 12px;
 }
 
+#policy{
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	float: right;
+	margin-right: 26%
+}
 
+#Blah {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
 
+.title1{
+	margin-right: auto;
+	margin-left: auto;
+ 	width: 15em; 
+}
+
+.title2{
+	margin-right: auto;
+	margin-left: auto;
+	width: 20em;
+}
+
+.pl{
+	padding-top: 1em;
+}
+
+.pl li{
+	padding-top: 1em;
+	font-size: 1.2em;
+}
+
+.small{
+	font-size: 1.15em;
+}
 
 
 
@@ -265,6 +304,16 @@ ul {
 
 iframe {
 	border: solid 5px #3e3e3e;
+}
+
+#policy{
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	float: right;
+	position:absolute;
+	width: 16em;
+	right: -60em;
 }
 
 }
@@ -468,6 +517,30 @@ iframe {
 	width: 55em;
 	height: 30em;
 }
+
+#policy{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	float: right;
+	position:absolute;
+	width: 16em;
+	right: -12em;
+	margin-top: .1em;
+}
+
+.pl{
+	margin-top: 0px;
+}
+
+.bump{
+	margin-top: 50px;
+	font-size: 24px;
+}
+
+.blah{
+	padding-bottom: 50em;
+}
 }
 
 
@@ -568,6 +641,17 @@ ul {
 }
 
 #whitelogo {
+	
+}
+
+#policy{
+	text-decoration: none;
+	color: white;
+	font-size: 1em;
+	float: right;
+	position: absolute;
+	width: 16em;
+	right: -17em;
 	
 }
 
